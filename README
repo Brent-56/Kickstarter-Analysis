@@ -1,2 +1,23 @@
-# Kickstarter-Analysis
-Performing Analysis on Kickstarter to uncover trends
+###Kickstarter-Analysis
+#Performing Analysis on Kickstarter to uncover trends
+
+##Overview
+The purpose of this project was to properly analyze and visualize the data set for Louise. During our
+analysis, we organized the data so that it was readable and able to be understood by the average Joe. Our goal here was to uncover hidden trends and patterns within the 
+data set that can't be seen just by looking at the raw data. By doing this we allow Louise to make confident business decisions. Some of the trends we focused on were
+Outcomes Based on launch dates, Theater outcomes based on launch dates, and Outcomes based on goals. The data was simply designed for Louise to read so he could yield 
+whichever outcome he wanted to yield or meet whichever outcome he wanted to meet. 
+
+##Analysis
+I performed my analysis through the utilization of a variety of different charts, visualizations, and formulas. One formula we used was the =AVERAGE( formula which is "=AVERAGE('Failed US Kickstarters'!D:D)" in the descriptive statistics tab. This
+formula is designed to display the mean of the pledged successful US kickstarters in the data set. Another formula we used was
+the =Median( formula which is "=MEDIAN('Successful US Kickstarters'!E:E)" in the Descriptive Statistics tab. This formula was used to display the middle number in the Pledged Successful US Kickstarters Data Set. 
+One of the main difficulties I encountered was how to know which set to assign to the Columns and Values section in my pivot tables. This can be solved by paying close attention to what is being asked of you to make.
+Sometimes they want certain data displayed a certain way and this can be achieved by taking extra time to comprehend the request. In addition, youtube was also a big help in breaking down the logic behind it for me. 
+
+##Results
+The first conclusion that I can draw from the Theater Outcomes by launch Date is that the highest amount of successful launches was in the month of May. The second 
+conclusion I came up with was that the highest amount of failed launches took place in May as well. From the Outcomes Based on Goals tab, I can conclude that you have the highest chance of succeeding if your goal is less than $1000.
+In terms of limitations in the analysis, the first one that stuck out to me was on the Outcomes Based on Goals tab. There seems to be a small sample size in the $45000 to $49999 range. It tells us we have a 0% chance of being successful if our goal is within this range but this is only based on one single launch.
+Another limitation of the data set is it only goes to the year 2017. This implies the data likely does not reflect the current landscape. The best graph and table for our analysis were a line graph and a pivot table. The graph and table worked
+together to reflect the data in the form of a table that can be filtered based on desired information and in the form of a visualization that displayed the trends of the launches. Another graph that would display the data would be a bar graph with the months on the X-axis and the amounts on the Y-axis. 
